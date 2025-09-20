@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章阅读 - NekoQwQ RSS Reader</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="icon.png" alt="icon" class="icon">
+                <h1>NekoQwQ RSS Reader</h1>
+            </div>
+            <div class="nav">
+                <a href="index.html" class="back-link">< 返回首页</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="article-content" id="article-content">
+            <!-- 文章内容将通过JavaScript动态生成 -->
+            <div class="article-header">
+                <h1 id="article-title">标题</h1>
+                <div class="article-meta">
+                    <span id="article-date">2099-01-01</span>
+                    <span id="article-author">RSS订阅</span>
+                    <a id="article-link" href="#" target="_blank">阅读原文</a>
+                </div>
+            </div>
+            <!-- 摘要已移除，仅在首页展示 -->
+            <div class="article-body" id="article-body">
+                <!-- 文章内容 -->
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Powered By NekoQwQ RSS Reader.</p>
+        </div>
+    </footer>
+
+    <script src="reader.js"></script>
+</body>
+</html>
